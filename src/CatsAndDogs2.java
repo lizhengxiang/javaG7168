@@ -26,7 +26,7 @@ public class CatsAndDogs2 {
         for(int i = 0; i < 7; i++)
             cats.addElement(new Cat2(i));
         // Not a problem to add a dog to cats:
-        //cats.addElement(new Dog2(7));
+        cats.addElement(new Dog2(7));
         Enumeration e = cats.elements();
         while(e.hasMoreElements())
             ((Cat2)e.nextElement()).print();
